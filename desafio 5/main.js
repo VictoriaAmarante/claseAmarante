@@ -19,7 +19,7 @@ const color = prompt('Ingrese el tipo de Piedras')
 const precio = parseInt(prompt('Ingrese el precio de piedras en la pagina'))
 const cantidad = parseInt(prompt('Ingrese la cantidad de iedras que desea llevar'))
 
-const zapato1 = new Piedras (articulo, color, precio, cantidad)
+const amatista1 = new Piedras (articulo, color, precio, cantidad)
 
 console.log(zPiedras1)
-zapato1.precioTotal()
+amatista1.precioTotal()
